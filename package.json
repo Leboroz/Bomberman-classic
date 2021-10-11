@@ -1,0 +1,26 @@
+{
+  "name": "bomberman-classic",
+  "version": "1.0.0",
+  "description": "This is a bomberman classic game with a microverse theme.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch sass:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leboroz/Bomberman-classic.git"
+  },
+  "keywords": [
+    "Bomberman",
+    "classic",
+    "game",
+    "videogame",
+    "microverse"
+  ],
+  "author": "Leonardo Albornoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Leboroz/Bomberman-classic/issues"
+  },
+  "homepage": "https://github.com/Leboroz/Bomberman-classic#readme"
+}
