@@ -1,0 +1,39 @@
+{
+  "name": "bomberman-classic",
+  "version": "1.0.0",
+  "description": "This is a bomberman classic game with a microverse theme.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch sass:assets/css",
+    "linthtml": "npx hint --telemetry=off .",
+    "lintjs": "npx eslint . --fix",
+    "lintcss": "npx stylelint \"**/*.{css,scss}\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leboroz/Bomberman-classic.git"
+  },
+  "keywords": [
+    "Bomberman",
+    "classic",
+    "game",
+    "videogame",
+    "microverse"
+  ],
+  "author": "Leonardo Albornoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Leboroz/Bomberman-classic/issues"
+  },
+  "homepage": "https://github.com/Leboroz/Bomberman-classic#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
