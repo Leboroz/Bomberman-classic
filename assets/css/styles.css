@@ -1,3 +1,7 @@
+.btn {
+  background-color: #fff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -39,5 +43,3 @@ h6 {
   width: 33.3%;
   background-color: #6e28ff;
 }
-
-/*# sourceMappingURL=styles.css.map */
